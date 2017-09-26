@@ -6,6 +6,11 @@
 
 int main()
 {
+	//char형 포인터 배열
+	char *ptr[3] = { "abc","abd","ccc" };
+	cout << "&ptr[0] =" << (int)&ptr[0]<<endl;
+	cout << "&ptr[0] =" << *ptr[0] << endl;
+	cout << "&ptr[0] =" << ptr[0] << endl;
     return 0;
 }
 
